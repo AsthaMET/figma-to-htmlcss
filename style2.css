@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url("img2.jpg");
+  background-size: 100% 589px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.container {
+  width: 900px;
+  height: 389px;
+  margin-block: 52px;
+  margin-left: 60px;
+}
+h3 {
+  font-family: Quasimoda;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 32px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+  color: #004834;
+  margin-block: 20px;
+}
+h2 {
+  font-family: Scotch Display;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: 4%;
+  text-transform: uppercase;
+  color: #004834;
+}
+.contant {
+  width: 550px;
+  height: 182px;
+  margin-block: 20px;
+}
+h5 {
+  font-family: Quasimoda;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4%;
+  color: #404040;
+}
+img {
+  align-items: center;
+  margin-inline: 8px;
+}
+.btn {
+  width: 420px;
+  height: 56px;
+  justify-content: space-between;
+}
+.call {
+  width: 200px;
+  height: 56px;
+  padding: 15px 35px;
+  opacity: 1;
+  background-color: #009b6f;
+  color: white;
+  font-family: Quasimoda;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4%;
+  align-items: center;
+  border: none;
+  margin-right: 16px;
+}
+.contact {
+  background-color: #009b6f;
+  width: 200px;
+  height: 56px;
+  padding-top: 15px;
+  padding-right: 35px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  opacity: 1;
+  border: none;
+  color: white;
+  font-family: Quasimoda;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 4%;
+}
+@media only screen and (max-width:400px) {
+    h5{
+        font-size: 19px;
+    }
+    .contant{
+        margin-bottom: 38px;
+    }
+}
