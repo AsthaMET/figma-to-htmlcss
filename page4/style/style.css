@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+}
+.section {
+  height: 450px;
+  width: 100%;
+}
+.our-partners {
+  justify-self: center;
+  padding-block: 1.5rem;
+  color: #796f51;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 1.5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.top {
+  font-family: Unbounded;
+  font-weight: bold;
+  font-style: Medium;
+  font-size: 30px;
+  text-align: center;
+  color: #161618;
+}
+.item {
+  position: absolute;
+  width: 200px;
+  height: 152px;
+  background-color: #3E614E;
+  border-radius: 1rem;
+  left: max(calc(260px * 6), 100%);
+  animation-name: scrollleft;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  padding-inline: 2rem;
+  align-content: center;
+}
+.reverse {
+  position: absolute;
+  width: 200px;
+  height: 152px;
+  background-color: #3E614E;
+  border-radius: 1rem;
+  left: max(calc(260px * 6), 100%);
+  animation-name: scrollleft;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  padding-inline: 2rem;
+  align-content: center;
+}
+/* .wrapper:hover .item{
+  animation-play-state: paused;
+}
+.wrapper:hover .reverse{
+  animation-play-state: paused;
+} */
+.wrapper {
+  width: 99%; 
+  height: 152px;
+  position: relative;
+  /* border: 2px solid red; */
+  justify-self: center;
+  display: flex;
+  margin-block: 30px;
+  overflow: hidden;
+  align-content: center;
+  align-items: center;
+}
+.item1 {
+  animation-delay: calc(10s / 6 * (6 - 1) * -1) !important;
+}
+.item2 {
+  animation-delay: calc(10s / 6 * (6 - 2) * -1) !important;
+}
+.item3 {
+  animation-delay: calc(10s / 6 * (6 - 3) * -1) !important;
+}
+.item4 {
+  animation-delay: calc(10s / 6 * (6 - 4) * -1) !important;
+}
+.item5 {
+  animation-delay: calc(10s / 6 * (6 - 5) * -1) !important;
+}
+.item6 {
+  animation-delay: calc(10s / 6 * (6 - 6) * -1) !important;
+}
+@keyframes scrollleft {
+  to {
+    left: -260px;
+  }
+}
